@@ -1,0 +1,59 @@
+.root{
+    --red-color: #ff0000 ;
+    --yello-color: #ffe278 ;
+    --blue-color: #4f32de ;
+    --gren-color:#6ab128 ;
+    ---sky-color: #5a40df;
+
+}
+
+.table {
+    font-size: small;
+  }
+  
+  .table ul {
+    color: var(--red-color);
+    
+  }
+  
+  .table ul li:nth-child(1) {
+    color: var(--yello-color);
+  }
+  
+  .table ul li:nth-child(2) {
+    color: var(--blue-color);
+  }
+  
+  .table ul li:nth-child(3) {
+    color: var(--gren-color);
+  }
+  
+  .table ul li:nth-child(4) {
+    color: var(---sky-color);
+  }
+  
+  .tebleul li:nth-child(5) {
+    color: var(--yello-color);
+  }
+
+  .animated-button {
+    font-size: medium;
+    color: #5a40df;
+  }
+  .animated-button::before {
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+  }
+
+  .animated-button:hover::before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    color: #ff0000;
+}
+.animated-button::after {
+  color: #ff0000;
+}

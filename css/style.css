@@ -1,0 +1,29 @@
+:root{
+    --pink-color:  #ca5c5c;
+    --grey-color:#4b524b; 
+    --red-color:#b40c0c;
+    --grin-color:#2cb128;
+    --yello-color:#beb20a;
+}
+ .text-box {
+
+        h3 {
+          color: var(--pink-color);
+        }
+      
+        #greycol {
+          color: var(--grey-color);
+        }
+      
+        div>p {
+         color: var(--red-color);
+        }
+      
+        p:nth-of-type(2) {
+          color: var(--grin-color);
+        }
+      
+        p.yellow {
+          color: var(--yello-color);
+        }
+     }
